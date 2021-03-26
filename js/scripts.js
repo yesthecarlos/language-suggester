@@ -12,7 +12,14 @@ $(document).ready(function () {
   console.log(iosInput);
   console.log(startInput);
   console.log(puzzleInput);
-  $("#output").show();
+    let result;
+    if (zodiacInput === "aries") {
+      result = "Swift";
+    }
+    $(".result").append(result);
+
+    $("#output").show();
   event.preventDefault();
   });
 });
+
