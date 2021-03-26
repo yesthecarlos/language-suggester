@@ -11,9 +11,9 @@
 <div class="container">
 
   <form id="formOne">
-    <label for="username">Your name:</label><br>
-    <input type="text" id="username" name="username"><br>
-    <br>
+    <label for="username">What's your name?</label><br>
+    <input type="text" id="username" name="username"><br><br>
+    <label for="zodiac">What's your sign?</label><br>
     <div class="radio">
       <label>
         <input type="radio" name="zodiac" value="aries" checked>
@@ -82,7 +82,55 @@
             <input type="radio" name="zodiac" value="pisces">
             Pisces (February 20 - March 20)
           </label>
+        </div>
+    <br>
+    <label for="proofreader">Are you great at proofreading?</label>
+    <div class="radio">
+      <label>
+        <input type="radio" name="proofreader" value="true" checked>
+        True
+      </label>
     </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="proofreader" value="false">
+        False
+      </label>
+      </div>
+    <br>
+    <label for="ios">Are you interested in making apps for iPhones?</label>
+    <div class="radio">
+      <label>
+        <input type="radio" name="ios" value="true" checked>
+        True
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="ios" value="false">
+        False
+      </label>
+      </div>
+      <br>
+    <div class="form-group">
+      <label for="start">When do you need to start using this language?</label>
+      <input id="start" class="form-control" type="date">
+    </div>
+      <br>
+      <label for="puzzle">2000-piece jigsaw puzzles, fun or nah?</label>
+    <div class="radio">
+      <label>
+        <input type="radio" name="puzzle" value="true" checked>
+        Fun!
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="puzzle" value="false">
+        Nah.
+      </label>
+      </div>
+      <br>
     <button type="submit" class="btn">Show me the results!</button>
   </form>
   <div id="output">
