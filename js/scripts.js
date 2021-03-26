@@ -6,19 +6,19 @@ $(document).ready(function () {
     const iosInput = $("input:radio[name=ios]:checked").val();
     const startInput = $("#start").val();
     const puzzleInput = $("input:radio[name=puzzle]:checked").val();
-  $(".username").empty().append(usernameInput);
-  console.log(zodiacInput);
-  console.log(proofreaderInput);
-  console.log(iosInput);
-  console.log(startInput);
-  console.log(puzzleInput);
+    $(".username").empty().append(usernameInput);
+    console.log(zodiacInput);
+    console.log(proofreaderInput);
+    console.log(iosInput);
+    console.log(startInput);
+    console.log(puzzleInput);
     let result;
     if (iosInput === "true") {
       result = "Swift";
     } else if (proofreaderInput === "false" && puzzleInput === "true") {
       result = "JavaScript"
     } else if (proofreaderInput === "false" && puzzleInput === "false") {
-    result = "Python";
+      result = "Python";
     } else if (proofreaderInput === "true" && puzzleInput === "false") {
       result = "Ruby";
     } else if (proofreaderInput === "true" && puzzleInput === "true") {
