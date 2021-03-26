@@ -7,31 +7,20 @@ $(document).ready(function () {
     const startInput = $("#start").val();
     const puzzleInput = $("input:radio[name=puzzle]:checked").val();
     $(".username").empty().append(usernameInput);
-    console.log(zodiacInput);
-    console.log(proofreaderInput);
-    console.log(iosInput);
-    console.log(startInput);
-    console.log(puzzleInput);
     let result;
     if (iosInput === "true") {
-      result = "Swift";
+      result = "Swift!";
     } else if (proofreaderInput === "false" && puzzleInput === "true") {
-      result = "JavaScript"
+      result = "JavaScript!"
     } else if (proofreaderInput === "false" && puzzleInput === "false") {
-      result = "Python";
+      result = "Python!";
     } else if (proofreaderInput === "true" && puzzleInput === "false") {
-      result = "Ruby";
+      result = "Ruby!";
     } else if (proofreaderInput === "true" && puzzleInput === "true") {
-      result = "C#";
+      result = "C#!";
       }
-    
-    // else if (startInput > Date(2021, 2, 26) {
-    //   result = "Python"
-    
     $(".result").empty().append(result);
-
     $("#output").show();
     event.preventDefault();
-  
-  });
+    });
 });
