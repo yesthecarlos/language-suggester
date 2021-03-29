@@ -15,6 +15,16 @@
 
 _This small web app helps the user decide which programming language they should learn first._
 
+## Setup/Installation Instructions
+
+* _Navigate to the main page of the repository (https://github.com/yesthecarlos/language-suggester.git)_
+* _Click the large green Code button at the top rightmost corner of the list of files._
+* _Click "Use GitHub CLI", then click the clipboard icon._
+* _Open Terminal and change the directory to your desired location_
+* ```console
+$ git clone https://github.com/yesthecarlos/language-suggester.git
+`
+
 ## Known Bugs
 
 * _In this web app (as in real life) astrological signs have no effect on the outcome._
@@ -22,7 +32,7 @@ _This small web app helps the user decide which programming language they should
 
 ## License
 
-_Copyright <2021> <Carlos Mendez>_
+_Copyright 2021 Carlos Mendez_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
