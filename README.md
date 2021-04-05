@@ -20,15 +20,15 @@ _This small web app helps the user decide which programming language they should
 * _Navigate to the main page of the repository (https://github.com/yesthecarlos/language-suggester.git)_
 * _Click the large green Code button at the top rightmost corner of the list of files._
 * _Click "Use GitHub CLI", then click the clipboard icon._
-* _Open Terminal and change the directory to your desired location_
-* ```console
-$ git clone https://github.com/yesthecarlos/language-suggester.git
-`
+* _Open Terminal and change the directory to your desired location._
+* _Type_ <code>$ git clone https://github.com/yesthecarlos/language-suggester.git</code> _and press Enter._
+* _Open the directory in VS Code or your preferred program._
+* _Open index.html in your preferred browser._
 
-## Known Bugs
+## Feature Plans
 
-* _In this web app (as in real life) astrological signs have no effect on the outcome._
-* _Incorporating the start date into the user's results is proving to be trickier than expected. For now, the start date also has no effect on the outcome_
+* _In this web app (as in real life) astrological signs have no effect on the outcome. However, this question will have a small effect on the outcome in the future._
+* _Incorporating the start date into the user's results is proving to be trickier than expected. For now, the start date also has no effect on the outcome._
 
 ## License
 
